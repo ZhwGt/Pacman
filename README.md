@@ -79,3 +79,12 @@ void glutKeyboardFunc(void(*func)(unsigned char key,int x,int y));处理按键�
 void glutKeyboardUpFunc(void (*func)(unsigned char key,int x,int y));处理松开按键事件
 void glutMainLoop(void);循环执行
 ```
+
+### openGL库安装
+```bash
+sudo apt update
+sudo apt install build-essential
+sudo apt install libgl1-mesa-dev
+sudo apt install libglu1-mesa-dev
+sudo apt install freeglut3-dev
+```
